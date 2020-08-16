@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+{% load static %}
+<html >
+  <head>
+    <meta charset="utf-8">
+    <title>FIRST APP</title>
+    <link rel="stylesheet" href="{% static "css/mycss.css" %}">
+  </head>
+  <body>
+
+  <h1>Hi welcome to level two</h1>
+  <h2>here acces record</h2>
+
+  <div class="djangotwo">
+    {% if access_records %}
+    <table>
+      <thead>
+        <th>Site name</th>
+        <th>date accessed</th>
+      </thead>
+      {% for acc in access_records %}
+      <tr>
+        <td>{{acc.name}}</td>
+        <td>{{acc.date}}</td>
+      </tr>
+      {% endfor %}
+    </table>
+
+
+     {% endif %}
+  </div>
+
+
+  </body>
+</html>

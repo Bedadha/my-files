@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <h2>MY FIRST JAVA SCRIPT</h2>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">click me to dispaly</button>
+<p id="demo"></p>
+<button onclick="document.getElementById('myImage').src='bulb.gif'">Turn on the light</button>
+
+<img id="myImage" src="pic_bulboff.gif" style="width:100px">
+
+<button onclick="document.getElementById('myImage').src='pic_bulboff.gif'">Turn off the light</button>
+<p id="dem"></p>
+<script>
+document.getElementById("dem").innerHTML = 5 + 6;
+</script>
+<script>
+document.write(5 + 6);
+</script>
+<script>
+alert(5 + 6);
+</script>
+<script>
+console.log(5 + 6);
+</script>
+<script>
+function toCelsius(f) {
+  return (5/9) * (f-32);
+}
+document.getElementById("demo").innerHTML = toCelsius(77);
+</script>
+<button onclick="this.innerHTML = Date()">The time is?</button>
+
+  </body>
+</html>

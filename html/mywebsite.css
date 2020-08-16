@@ -1,0 +1,22 @@
+body{
+
+  background: url(background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+p{
+  color:red;
+  text-decoration: underline;
+}
+h1{
+  color:green;
+  text-align: center;
+}
+.col-lg-6{
+  float: left;
+  width: 50%;
+  align-items: center;
+  margin: auto;
+  padding: auto;
+}

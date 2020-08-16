@@ -1,0 +1,21 @@
+body{
+
+  background: url(background.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.dog{
+  float: left;
+  width: 50%;
+
+}
+p{
+  color:red;
+  text-decoration: underline;
+}
+h1{
+  color:green;
+  text-align: center;
+}
